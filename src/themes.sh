@@ -51,6 +51,54 @@ case $SELECTED_THEME in
   )
   ;;
 
+"rose-pine")
+  declare -A THEME=(
+    ["background"]="#191724"
+    ["foreground"]="#e0def4"
+    ["black"]="#232136"
+    ["blue"]="#9ccfd8"
+    ["cyan"]="#ebbcba"
+    ["green"]="#31748f"
+    ["magenta"]="#c4a7e7"
+    ["red"]="#eb6f92"
+    ["white"]="#e0def4"
+    ["yellow"]="#f6c177"
+
+    ["bblack"]="#26233a"
+    ["bblue"]="#9ccfd8"
+    ["bcyan"]="#ebbcba"
+    ["bgreen"]="#31748f"
+    ["bmagenta"]="#c4a7e7"
+    ["bred"]="#eb6f92"
+    ["bwhite"]="#e0def4"
+    ["byellow"]="#f6c177"
+  )
+  ;;
+
+"catppuccin-mocha")
+  declare -A THEME=(
+    ["background"]="#181825"
+    ["foreground"]="#cdd6f4"
+    ["black"]="#45475a"
+    ["green"]="#a6e3a1"
+    ["blue"]="#89b4fa"
+    ["cyan"]="#94e2d5"
+    ["magenta"]="##cba6f7"
+    ["red"]="#f38ba8"
+    ["white"]="#cdd6f4"
+    ["yellow"]="#f9e2af"
+
+    ["bblack"]="##313244"
+    ["bblue"]="#89b4fa"
+    ["bcyan"]="#94e2d5"
+    ["bgreen"]="#a6e3a1"
+    ["bmagenta"]="##cba6f7"
+    ["bred"]="#f38ba8"
+    ["bwhite"]="#cdd6f4"
+    ["byellow"]="#f9e2af"
+  )
+  ;;
+
 "day")
   declare -A THEME=(
     ["background"]="#d5d6db"
